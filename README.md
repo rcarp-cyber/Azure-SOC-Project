@@ -17,7 +17,8 @@ Architecture Diagram![image](https://github.com/user-attachments/assets/0fd6ddcc
 
 
 ## Architecture After Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
+Architecture Diagram![image](https://github.com/user-attachments/assets/90ee891c-aedc-4dd9-a235-9686109ccfff)
+
 
 The architecture of the mini honeynet in Azure consists of the following components:
 
@@ -34,9 +35,9 @@ For the "BEFORE" metrics, all resources were originally deployed, exposed to the
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
 ## Attack Maps Before Hardening / Security Controls
-![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/1qvswSX.png)<br>
-![Linux Syslog Auth Failures](https://i.imgur.com/G1YgZt6.png)<br>
-![Windows RDP/SMB Auth Failures](https://i.imgur.com/ESr9Dlv.png)<br>
+NSG Allowed Inbound Malicious Flows![image](https://github.com/user-attachments/assets/62c1fc85-61df-494d-92e3-ff335e74a481)<br>
+Linux Syslog Auth Failures![image](https://github.com/user-attachments/assets/c46d9e21-da4f-4f7c-8d6e-94d6937b1b29)<br>
+Windows RDP/SMB Auth Failures![image](https://github.com/user-attachments/assets/02cb4fba-85a6-4dd7-ad95-294920cb99f4)<br>
 
 ## Metrics Before Hardening / Security Controls
 
